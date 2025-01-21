@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LazerNerds</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #000; /* Black background */
+            color: #0ff; /* Neon blue text */
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #0ff; /* Neon blue border */
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff; /* Neon glow effect */
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff; /* Neon glow effect */
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .links {
+            display: flex;
+            justify-content: space-around; /* Positions links evenly */
+            margin-top: 20px;
+        }
+        .links a {
+            text-decoration: none; /* Removes underline */
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-shadow: 0 0 10px, 0 0 20px; /* Glow effect */
+            transition: all 0.3s ease; /* Smooth hover effect */
+        }
+        .links a.catalog {
+            color: #f00; /* Neon red */
+            border: 2px solid #f00; /* Neon red border */
+            text-shadow: 0 0 10px #f00, 0 0 20px #f00; /* Neon red glow */
+        }
+        .links a.catalog:hover {
+            background-color: #f00; /* Neon red background on hover */
+            color: #000; /* Black text on hover */
+        }
+        .links a.resources {
+            color: #0f0; /* Neon green */
+            border: 2px solid #0f0; /* Neon green border */
+            text-shadow: 0 0 10px #0f0, 0 0 20px #0f0; /* Neon green glow */
+        }
+        .links a.resources:hover {
+            background-color: #0f0; /* Neon green background on hover */
+            color: #000; /* Black text on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LazerNerds</h1>
+        <p>A sourcing website for all things lasers</p>
+    </header>
+    <main>
+        <p>Welcome to LazerNerds! Explore the world of lasers with us. From cutting-edge technology to hobbyist tools, we have it all.</p>
+        <p>Stay tuned for updates and exciting laser-related resources!</p>
+        <div class="links">
+            <a href="catalog.html" class="catalog">Catalog</a>
+            <a href="resources.html" class="resources">Resources</a>
+        </div>
+    </main>
+</body>
+</html>
